@@ -1,0 +1,111 @@
+
+.around_selector {
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+    height: 90px;    
+}
+.around_selector_2 {
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 65px;
+    width: 1000px;
+}
+.selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 422px;
+    background-color: rgb(0, 94, 218);
+
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 9px;
+    width: 103px;
+    height: 60px;
+    background-color: transparent;
+    border-width: 0;
+
+    border-radius: 10px;
+    background-color: rgb(0, 94, 218);
+
+    color: rgba(245, 245, 245, 0.658);
+
+    cursor: pointer;
+}
+.card:focus  {
+    background-color: whitesmoke;
+    transition: all .40s;    
+    color: black;
+}
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all .40s;   
+}
+.card_text {
+    margin-top: 7px;
+}
+.for_bisness {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 9px;
+    width: 103px;
+    height: 65px;
+    background-color: transparent;
+    border-width: 0;
+
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    color: rgba(245, 245, 245, 0.658);
+
+    cursor: pointer;
+}
+.for_bisness:hover {
+    background-color: rgba(0, 162, 255, 0.568);
+    transition: all .40s;   
+}
+.sv_group {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content:flex-end;    
+    width: 100%;
+}
+#arrow {
+    margin-left: 16px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+@media screen and (max-width: 660px) {
+    .around_selector_2 {
+        flex-wrap: wrap;
+        height: 250px;
+    }
+    .around_selector {
+        flex-wrap: wrap;
+        height: 250px;
+    }
+    .selector {
+        flex-direction: column;
+        height: 250px;
+        width: 120px;
+    }
+}

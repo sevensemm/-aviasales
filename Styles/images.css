@@ -1,0 +1,130 @@
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: -140px;
+}
+.first_images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 388px;
+}
+.separator_image {
+    width: 20px;
+}
+
+
+.vertical {
+    border-radius: 20px;
+    margin-top: 40px;
+    width: auto;
+}
+.double {
+    display: flex;
+    flex-direction: row;    
+    margin-top: 40px;    
+}
+.double_images {
+    border-radius: 20px;
+}
+.rg {
+    margin-left: 20px;
+}
+
+.calendar {    
+    position: relative;
+    width: 800px;
+    margin-top: 60px;
+}
+#calendar_cal {
+    position: absolute;
+    right: 45px;
+    top: -32px;
+    border-radius: 10px;
+}
+#calendar_back {
+    border-radius: 20px;
+}
+
+
+.map {
+    position: relative;
+    width: 800px;
+    margin-top: 60px;
+}
+.map_svg {
+    position: absolute;
+    left: 30px;
+    top: -26px;
+    border-radius: 10px;
+}
+.map_im {
+    border-radius: 20px;
+}
+.cat {
+    position: relative;
+    width: 800px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.cat_cat {
+    position: absolute;
+    right: 356px;
+    top: -48px;
+    width: 96px;
+    height: 96px;
+}
+.aktiv:hover {
+    cursor: pointer;
+}
+@media screen and (max-width: 820px) {
+    .double_images {
+        width: 280px;
+        height: 280px;
+    }
+    .vertical {
+        width: 400px;
+    }
+    .calendar {    
+        width: 400px;
+    }
+    #calendar_back {    
+        width: 400px;
+    }
+    #calendar_cal {
+        right: 20px;
+        top: -20px;
+        width: 60px;
+    }
+
+    .map {
+        width: 400px;
+    }
+    .map_im {
+        width: 400px;
+    }
+    .map_svg {
+        left: 30px;
+        top: -26px;
+        height: 30px;
+        width: 30px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .double_images {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .double {
+        flex-direction: column;    
+    }
+    .rg {
+        margin-left: 0%;    
+        margin-top: 20px;
+    }
+}
